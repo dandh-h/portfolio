@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dandy Carreon — Junior DevOps Engineer & Developer",
+  title: "Dandy Carreon — Junior DevOps Engineer",
   description: "Portfolio of Dandy Carreon, a Junior DevOps Engineer and Developer based in the Philippines.",
 };
 

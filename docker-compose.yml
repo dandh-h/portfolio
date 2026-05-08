@@ -1,5 +1,3 @@
-version: "3.9"
-
 services:
   frontend:
     build:
@@ -9,3 +7,18 @@ services:
       - "3000:3000"
     environment:
       - NODE_ENV=production
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: ./backend/ContactApi
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - Smtp__Host=smtp.gmail.com
+      - Smtp__Port=587
+      - Smtp__User=dandycarreon.2001@gmail.com
+      - Smtp__Pass=${SMTP_PASS}
+      - Smtp__To=dandycarreon.2001@gmail.com

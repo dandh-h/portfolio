@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
 
         <span className="font-mono text-sm text-[#B08EC0] tracking-widest">
-          dandy.dev
+          dandy.dot
         </span>
 
         <p className="text-xs text-[#8C8078] text-center">
