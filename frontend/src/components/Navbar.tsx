@@ -27,7 +27,7 @@ export default function Navbar() {
             </li>
           ))}
           <li>
-            <a href="mailto:dandycarreon.2001@gmail.com" className="text-sm px-5 py-2 rounded-full bg-[#B08EC0] text-white hover:bg-[#9B7AB0] transition-all duration-200">
+            <a href="#contact" className="text-sm px-5 py-2 rounded-full bg-[#B08EC0] text-white hover:bg-[#9B7AB0] transition-all duration-200">
               Hire Me
             </a>
           </li>
@@ -43,7 +43,7 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <a href="mailto:dandycarreon.2001@gmail.com" className="text-sm px-5 py-2 rounded-full bg-[#B08EC0] text-white w-fit">
+          <a href="#contact" className="text-sm px-5 py-2 rounded-full bg-[#B08EC0] text-white w-fit">
             Hire Me
           </a>
         </div>
