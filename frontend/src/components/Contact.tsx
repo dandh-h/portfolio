@@ -9,7 +9,7 @@ export default function Contact() {
   const handleSubmit = async () => {
     setStatus('loading')
     try {
-      const res = await fetch('http://localhost:5163/contact', {
+      const res = await fetch('https://contact-api-23hr.onrender.com/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form)
