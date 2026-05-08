@@ -10,11 +10,14 @@ A modern developer portfolio built with **Next.js**, **React**, **TypeScript**, 
 
 * Next.js
 * React
+* ASP.Net
+* C#
 * TypeScript
 * Tailwind CSS
 * Docker
 * Docker Compose
 * Vercel
+* Render
 
 ---
 
@@ -111,8 +114,8 @@ npm run build
 
 # Future Improvements
 
-* CI/CD pipeline integration
-* Backend API integration
+✅ CI/CD pipeline integration 
+✅ Backend API integration
 * Authentication system
 * Cloud deployment (AWS/Azure)
 * Monitoring and logging
